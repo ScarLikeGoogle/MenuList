@@ -1,0 +1,146 @@
+html,body{
+  margin:0;
+  padding:0;
+  width: 100%;
+  height: 100%
+}
+body{
+  overflow: hidden;
+}
+#main{
+  width: 100%;
+  position: absolute;
+  top:69px;
+}
+.main-sidebar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+li.light-blue:hover{
+  background-color:#1D73A0;
+
+}
+li.light-blue{
+  float:left;
+  width:90px;height:70px;display:block;cursor:pointer;
+}
+img.icon{
+  padding-left:30px;padding-top:6px;width:27px;height:39px;
+}
+.left{
+  display: block;
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 10%;
+}
+.right{
+  display: block;
+  position: relative;
+  float: right;
+  height: 100%;
+  width: 90%;
+}
+.masthead{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  padding-top: 2px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #4F99C6;
+}
+.masthead ul{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.masthead li{
+  cursor: pointer;
+  float: left;
+  list-style:none;
+  width: 80px;
+  height: 100%;
+  line-height: 26px;
+  margin: 0 2px !important;
+  text-align: center;
+  background: #EEF0EE;
+  position: relative;
+}
+.masthead li a{
+  color: #222222;
+  font-size: 13px;
+}
+.masthead li a:hover,
+.masthead li a:focus{
+  text-decoration: none;
+}
+/*.masthead ul li:nth-chlid(1){*/
+  /*margin-left: 0 !important;*/
+/*}*/
+.trangl{
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 16px solid #2b7dbc;
+  border-bottom: 8px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+.hidden_title{
+  display:none;
+}
+.active{
+  background: #fff;
+  color: #fff !important;
+}
+.active a{
+  color: #000 !important;
+}
+.active_show{
+  background: #438EB9 !important;
+  color: #ffffff !important;
+}
+.active_show span{
+  background: pink;
+}
+.active_show a{
+  color: #ffffff !important;
+}
+#menu_list{
+  width: 500px;
+}
+.close{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  font-size: 6px;
+  color: #ffffff !important;
+  line-height: 10px;
+  text-align: center;
+  background: #FFC0CB;
+  opacity: 1 !important;
+  position: absolute;
+  top: 0;
+  left: 70px;
+}
+/*li{
+  float: left;
+  display: block;
+  width: 25%;
+  height: 100%;
+  list-style: none;
+  font-size: 2rem;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}*/
